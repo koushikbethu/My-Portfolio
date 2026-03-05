@@ -28,6 +28,9 @@ const About = () => {
             <p className="text-lg md:text-xl text-textColor/90 leading-relaxed mb-6">
               I build intelligent web systems, scalable backend architectures, and AI-driven applications that solve real-world problems. My experience spans machine learning systems, REST API design, cloud deployment, and modern frontend frameworks.
             </p>
+            <p className="text-lg md:text-xl text-textColor/90 leading-relaxed mb-6">
+              With a <span className="text-secondary font-semibold">strong foundation in problem-solving</span> and as an <span className="text-secondary font-semibold">active problem solver</span>, I&apos;ve solved 315+ coding challenges and maintain a consistent competitive programming practice.
+            </p>
             <p className="text-lg md:text-xl text-textColor/90 leading-relaxed">
               I&apos;m passionate about applied AI, system design, and building engineering solutions that improve productivity and accessibility.
             </p>
