@@ -1,0 +1,172 @@
+================================================================================
+                    PORTFOLIO WEBSITE - GETTING STARTED
+================================================================================
+
+Your modern developer portfolio is ready! Here's what to do next:
+
+================================================================================
+STEP 1: INSTALL DEPENDENCIES (2 minutes)
+================================================================================
+
+Open terminal in the portfolio folder and run:
+
+    npm install
+
+This will install all required packages (Next.js, React, TailwindCSS, etc.)
+
+================================================================================
+STEP 2: START DEVELOPMENT SERVER (30 seconds)
+================================================================================
+
+    npm run dev
+
+Then open: http://localhost:3000
+
+Your portfolio will load in the browser!
+
+================================================================================
+STEP 3: CUSTOMIZE YOUR CONTENT (10 minutes)
+================================================================================
+
+Update these files with your information:
+
+1. components/Hero.tsx
+   - Your name, title, tagline
+   - GitHub and LinkedIn links
+
+2. components/About.tsx
+   - Your professional bio
+
+3. components/Contact.tsx
+   - Email and phone number
+
+4. public/resume.pdf
+   - Add your resume PDF file
+
+================================================================================
+STEP 4: DEPLOY TO THE WEB (5 minutes)
+================================================================================
+
+EASIEST: Deploy to Vercel
+    1. Push code to GitHub
+    2. Go to vercel.com
+    3. Import your repository
+    4. Click Deploy
+    5. Done!
+
+OR: Deploy to GitHub Pages
+    1. Push code to GitHub
+    2. Enable GitHub Pages in settings
+    3. Select "GitHub Actions" as source
+    4. Auto-deploys on every push!
+
+================================================================================
+WHAT'S INCLUDED
+================================================================================
+
+✓ 11 Professional Sections
+  - Hero with animated introduction
+  - About section
+  - Skills with icons
+  - Projects showcase
+  - Experience timeline
+  - Education details
+  - Achievements
+  - Certifications
+  - GitHub activity
+  - Contact form
+  - Footer
+
+✓ Modern Tech Stack
+  - Next.js 14 (React framework)
+  - TailwindCSS (styling)
+  - Framer Motion (animations)
+  - TypeScript (type safety)
+  - Fully responsive design
+
+✓ Features
+  - Dark developer theme
+  - Smooth animations
+  - Glassmorphism effects
+  - Mobile responsive
+  - SEO optimized
+  - Fast performance
+
+================================================================================
+DOCUMENTATION FILES
+================================================================================
+
+README.md              - Complete documentation
+QUICKSTART.md          - 5-minute quick start guide
+SETUP_INSTRUCTIONS.md  - Detailed setup steps
+CUSTOMIZATION.md       - How to customize everything
+DEPLOYMENT.md          - Deployment to Vercel/Netlify/GitHub Pages
+PROJECT_SUMMARY.md     - Complete project overview
+
+================================================================================
+FOLDER STRUCTURE
+================================================================================
+
+portfolio/
+├── app/               - Next.js app (layout, pages, styles)
+├── components/        - React components (Hero, About, Skills, etc.)
+├── public/           - Static files (add your resume here!)
+├── .github/          - GitHub Actions for auto-deployment
+└── Documentation     - All guides and instructions
+
+================================================================================
+QUICK COMMANDS
+================================================================================
+
+npm install           - Install dependencies
+npm run dev          - Start development server
+npm run build        - Build for production
+npm start            - Run production build
+npm run lint         - Check code quality
+
+================================================================================
+CUSTOMIZATION TIPS
+================================================================================
+
+Colors: Edit tailwind.config.js
+  primary: '#0f172a'    (background)
+  accent: '#38bdf8'     (cyan accent)
+  secondary: '#6366f1'  (indigo accent)
+
+Fonts: Edit app/globals.css
+  Currently using Inter and Poppins
+
+Content: Edit component files
+  All content is in the components/ folder
+
+================================================================================
+SUPPORT & RESOURCES
+================================================================================
+
+Documentation: Read the .md files in this folder
+Issues: Open an issue on GitHub
+Email: koushik.bethu25@gmail.com
+
+Next.js Docs: https://nextjs.org/docs
+TailwindCSS: https://tailwindcss.com/docs
+Framer Motion: https://www.framer.com/motion/
+
+================================================================================
+NEXT STEPS
+================================================================================
+
+1. Run: npm install
+2. Run: npm run dev
+3. Open: http://localhost:3000
+4. Customize your content
+5. Deploy to Vercel or GitHub Pages
+6. Share your portfolio with recruiters!
+
+================================================================================
+
+Built with React, TailwindCSS, and Framer Motion
+Designed for AI Engineers and Full-Stack Developers
+
+Good luck with your job search! 🚀
+
+================================================================================
