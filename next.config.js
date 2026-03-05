@@ -4,7 +4,8 @@ const nextConfig = {
   images: {
     unoptimized: true,
   },
-  basePath: process.env.NODE_ENV === 'production' ? '' : '',
+  basePath: '/My-Portfolio',
+  assetPrefix: '/My-Portfolio/',
 }
 
 module.exports = nextConfig
