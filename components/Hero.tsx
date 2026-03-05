@@ -15,9 +15,13 @@ const Hero = () => {
         >
           <div className="w-40 h-40 mx-auto rounded-full bg-gradient-to-r from-accent to-secondary p-1">
             <img
-              src="/My-Portfolio/koushik.jpeg"
+              src="https://raw.githubusercontent.com/koushikbethu/My-Portfolio/main/public/koushik.jpeg"
               alt="Koushik Bethu"
               className="w-full h-full rounded-full object-cover"
+              onError={(e) => {
+                e.currentTarget.style.display = 'none';
+                e.currentTarget.parentElement!.innerHTML = '<div class="w-full h-full rounded-full bg-primary flex items-center justify-center text-6xl font-bold gradient-text">KB</div>';
+              }}
             />
           </div>
         </motion.div>
