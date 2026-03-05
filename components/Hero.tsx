@@ -15,7 +15,7 @@ const Hero = () => {
         >
           <div className="w-40 h-40 mx-auto rounded-full bg-gradient-to-r from-accent to-secondary p-1">
             <img
-              src="/koushik.jpeg"
+              src="/My-Portfolio/koushik.jpeg"
               alt="Koushik Bethu"
               className="w-full h-full rounded-full object-cover"
             />

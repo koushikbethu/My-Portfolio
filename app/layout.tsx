@@ -10,7 +10,7 @@ export const metadata: Metadata = {
   keywords: 'AI Engineer, Full Stack Developer, Machine Learning, React, Next.js, Python, FastAPI',
   authors: [{ name: 'Koushik Bethu' }],
   icons: {
-    icon: '/favicon.svg',
+    icon: '/My-Portfolio/favicon.svg',
   },
   openGraph: {
     title: 'Koushik Bethu | AI Engineer & Full Stack Developer',
